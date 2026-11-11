@@ -1,0 +1,19 @@
+/* Estilos propios (el resto lo da Bootstrap) */
+:root { --teal: #0f766e; --teal-oscuro: #0b5c56; }
+
+body { background: #f4f7f7; }
+.navbar-clinica { background: var(--teal); }
+.navbar-clinica .nav-item.active .nav-link { font-weight: 600; border-bottom: 2px solid #fff; }
+
+.btn-teal { background: var(--teal); border-color: var(--teal); color: #fff; }
+.btn-teal:hover, .btn-teal:focus { background: var(--teal-oscuro); border-color: var(--teal-oscuro); color: #fff; }
+.text-teal { color: var(--teal); }
+
+.tarjeta-dato { border: 0; border-left: 4px solid var(--teal); box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+.tarjeta-dato .numero { font-size: 2rem; font-weight: 600; color: var(--teal); line-height: 1.2; }
+
+.login-fondo { background: #e6f0ef; }
+.login-caja { margin-top: 12vh; }
+
+.dato-etiqueta { color: #6c757d; font-size: .85rem; }
+td { vertical-align: middle !important; }
